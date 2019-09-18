@@ -22,7 +22,7 @@ export class LanguagesMainPluginMetrics extends LanguagesMainImpl {
 
     @postConstruct()
     protected init(): void {
-        setTimeout(() => {
+        setInterval(() => {
             console.log(this.extensionIDToExtensionFeatureMap);
         }, 10000);
     }
