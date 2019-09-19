@@ -4,7 +4,8 @@
   "description": "Theia - Test Extension",
   "dependencies": {
     "@theia/plugin-ext": "^0.10.0",
-    "@theia/core": "^0.10.0"
+    "@theia/core": "^0.10.0",
+    "@theia/plugin": "^0.10.0"
   },
   "publishConfig": {
     "access": "public"
